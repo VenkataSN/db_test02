@@ -1,1 +1,1 @@
-insert into edi.abc('error');
+select sysdate from dual;
