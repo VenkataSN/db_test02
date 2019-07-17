@@ -12,7 +12,7 @@ VALUES      ( code_value_seq.NEXTVAL,
               FROM   edi.code_set 
               WHERE  code_set_name = 'FUNCTIONAL_TRANSACTION_STATUS'), 
              'EPAYMENT_RECON_JENKINS_SAMPLE', 
-             'testhavingerror_01_first_insert', 
+             'testhavingerror_01_first_insert_after_rollback_implementation', 
              1, 
              SYSDATE, 
              SYSDATE, 
