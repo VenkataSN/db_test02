@@ -1,10 +1,5 @@
-WHENEVER SQLERROR EXIT FAILURE ROLLBACK;
 
-WHENEVER OSERROR EXIT FAILURE ROLLBACK;
-
-SET AUTOCOMMIT OFF;
-
-select sysdate from dual;
+select sysdate1 from dual;
 
 INSERT INTO edi.code_value 
 VALUES      ( code_value_seq.NEXTVAL, 
