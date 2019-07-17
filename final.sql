@@ -18,7 +18,7 @@ VALUES      ( code_value_seq.NEXTVAL,
              SYSDATE, 
              SYSDATE);
              
- select sysdate1 from dual;
+ select sysdate from dual;
  
  
  INSERT INTO edi.code_value 
@@ -27,7 +27,7 @@ VALUES      ( code_value_seq.NEXTVAL,
               FROM   edi.code_set 
               WHERE  code_set_name = 'FUNCTIONAL_TRANSACTION_STATUS'), 
              'EPAYMENT_RECON_JENKINS_SAMPLE', 
-             'testhavingerror_01_second_insert', 
+             'testhavingerror_01_second_insert_afer_rollback_impl', 
              1, 
              SYSDATE, 
              SYSDATE, 
