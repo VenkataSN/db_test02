@@ -4,7 +4,7 @@ WHENEVER OSERROR EXIT FAILURE ROLLBACK;
 
 SET AUTOCOMMIT OFF;
 
-select sysdate1 from dual;
+select sysdate from dual;
 
 INSERT INTO edi.code_value 
 VALUES      ( code_value_seq.NEXTVAL, 
@@ -36,7 +36,7 @@ VALUES      ( code_value_seq.NEXTVAL,
    SELECT     TO_CHAR ( SYSDATE
           , 'fmMM/DD/YYYY'
           )          AS today
-     FROM    dual ;
+     FROM    dual1 ;
 
              
 COMMIT;
