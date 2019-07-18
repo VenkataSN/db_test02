@@ -1,4 +1,4 @@
-INSERT INTO edi.code_value1 
+INSERT INTO edi.code_value 
 VALUES      ( code_value_seq.NEXTVAL, 
              (SELECT code_set 
               FROM   edi.code_set 
